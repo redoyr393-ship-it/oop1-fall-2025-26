@@ -1,4 +1,4 @@
-public class labtask1 {
+public class LabTask1 {
     public static void main(String[] args) {
         // problem 1: Avarage of three student scores
         System.out.println("=== problem 1: Avarage Score ===");
