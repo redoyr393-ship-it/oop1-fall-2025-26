@@ -1,6 +1,13 @@
 import java.util.*;
 public class MidLab { 
+    
+       public  String formatFullName(String firstName, String lastName)
+    {
+        return firstName+" "+lastName; 
+    }
+
     public static void main(String[] args) {
+        MidLab obj1 = new MidLab();
         Scanner scanner = new Scanner(System.in);
 // 1. Combine first and last name
         System.out.print("Enter first name: ");
@@ -9,7 +16,7 @@ public class MidLab {
         System.out.print("Enter last name: ");
         String lastName = scanner.nextLine();
         
-        String fullName = formatFullName(firstName, lastName);
+        String fullName = obj1.formatFullName(firstName, lastName);
         System.out.println("1. Full Name: " + fullName);
         
         // 2. Generate product code
@@ -62,4 +69,6 @@ public class MidLab {
 
 
     
+}
+
 }

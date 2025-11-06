@@ -1,5 +1,4 @@
-public interface labTask4 {
-}mport javia.util.*;
+import java.util.*;
 public class LabTask4 {
     public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);

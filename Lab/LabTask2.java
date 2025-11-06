@@ -1,4 +1,5 @@
-public class Labtask2{
+import java.util.*;
+public class LabTask2{
     public static void main(String[]args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -9,7 +10,7 @@ public class Labtask2{
         double finalPrice = originalPrice - discountAmount;
         System.out.printf("Original Price:$%.2f\n", originalPrice);
         System.out.printf("Discount (15%%): $%.2f\n", discountAmount);
-        System.out.pritf("Final price: $%.2f\n\n:", finalPrice);
+        System.out.printf("Final price: $%.2f\n\n:", finalPrice);
 
         scanner.close();
     }
