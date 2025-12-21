@@ -1,4 +1,4 @@
-public abstract class LabTask2final {
+public abstract class FinalLabTask2 {
     public class SimpleCompany {
 
     // Fixed size arrays
